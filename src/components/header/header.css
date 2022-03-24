@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    align-items: center;
+
+    width: 359px;
+    margin: auto;
+  }
+
+  nav {
+    margin-left: auto;
+  }
+
+  nav div {
+    float: left;
+  }
+
+  header .logo {
+    width: 122px;
+    height: 24.28px;
+  }
+
+  .account-btn,
+  .menu-btn {
+    width: 48px;
+    height: 48px;
+
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    margin: 8px;
+  }
+
+  .account-btn img,
+  .menu-btn img {
+    display: block;
+  }
+
+  .account-btn img {
+    margin: 15.67px auto;
+  }
+
+  .menu-btn img {
+    margin: 18.17px auto;
+  }
