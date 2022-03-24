@@ -1,0 +1,17 @@
+.footer-page {
+  height: 240px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-page h2,
+.footer-page .sub-header-text
+ {
+  text-align: left;
+}
+
+.footer-page .logo {
+  width: 122px;
+  height: 24.28px;
+  margin-bottom: 20px;
+}

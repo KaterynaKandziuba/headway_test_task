@@ -69,10 +69,9 @@ section {
   .wrapper {
     width: 359px;
     padding: 24px 16px 0px;
-    margin: 0px calc(50% - 359px / 2);
+    margin: 8px calc(50% - 359px / 2);
 
     border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     top: 0px;
   }

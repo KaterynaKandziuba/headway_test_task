@@ -1,0 +1,19 @@
+.start-button {
+  padding: 0px 24px;
+
+  position: sticky;
+  bottom: 8px;
+
+  width: 343px;
+  height: 56px;
+  left: calc(50% - 343px / 2);
+
+  background: #0066ff;
+  border-radius: 8px;
+  margin: 10px 0px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
+}

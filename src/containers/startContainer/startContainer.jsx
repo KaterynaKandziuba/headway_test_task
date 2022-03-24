@@ -11,7 +11,7 @@ const StartContainer = () => {
 
     return (
         <>
-            <section className="wrapper">
+            <section className="wrapper page-1">
             <BlockHeaderText text={header}/>
             <BlockSubheaderText text={subheader}/>
             <div className="illustration-box">
