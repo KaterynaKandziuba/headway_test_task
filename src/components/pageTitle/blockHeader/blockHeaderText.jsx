@@ -1,6 +1,6 @@
 import "./blockHeaderText.css"
 
-const BlockHeaderText = ({ text }) => {
+export const BlockHeaderText = ({ text }) => {
     return(
         <h2>{text}</h2>
     )

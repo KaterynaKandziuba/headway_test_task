@@ -1,12 +1,78 @@
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+abbr,
+em,
+img,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
 @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    src: url("./fonts/Inter\ Web/Inter-Regular.woff2") format("woff2"),
-      url("./fonts/Inter\ Web/Inter-Regular.woff") format("woff");
+    src: url("../src/fonts/Inter\ Web/Inter-Regular.woff2") format("woff2"),
+      url("./src/fonts/Inter\ Web/Inter-Regular.woff") format("woff");
   }
   
   body {
     font-family: "Inter", sans-serif;
     background: #fff8f4;
+  }
+
+  .wrapper {
+    width: 359px;
+    padding: 24px 16px 0px;
+    margin: 0px calc(50% - 359px / 2);
+
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    top: 0px;
   }

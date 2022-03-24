@@ -1,6 +1,6 @@
 import "./blockSubheaderText.css"
 
-const BlockSubheaderText = ({ text }) => {
+export const BlockSubheaderText = ({ text }) => {
     return(
         <p className="sub-header-text">{text}</p>
     )
