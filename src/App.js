@@ -1,5 +1,5 @@
 import './App.css';
-import StartContainer from './components/pageContainer/startContainer/startContainer';
+import StartContainer from './containers/startContainer/startContainer';
 import Header from './components/header/header'
 
 function App() {

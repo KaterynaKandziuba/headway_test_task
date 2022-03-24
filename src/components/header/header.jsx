@@ -7,7 +7,7 @@ import accountButton from '../../assets/img/account-icon.png'
 export const Header = () => {
   return (
     <header>
-    <div class="logo">
+    <div className="logo">
       <img src={logo} alt="headway" />
     </div>
     <nav>
