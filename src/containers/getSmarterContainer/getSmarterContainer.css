@@ -3,3 +3,8 @@
     background: #E6F2E7;
     border: 1px solid rgba(0, 187, 119, 0.4);
   }
+
+  .page-2 img {
+    display: block;
+    margin: 30px auto 0px;
+  }

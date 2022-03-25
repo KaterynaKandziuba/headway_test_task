@@ -3,3 +3,21 @@
     background: #FFEDE1;
     border: 1px solid rgba(255, 136, 51, 0.2);
   }
+
+  [alt="arrow"] {
+    display: block;
+    margin: auto;
+  }
+
+  .page-3 .summary-pic {
+    display: block;
+    margin: 20px auto 0px;
+  }
+
+  .page-3 p {
+    margin: 8px auto 0px;
+  }
+
+  .page-3 .additional-text {
+    margin: 0px auto 8px;
+  }
