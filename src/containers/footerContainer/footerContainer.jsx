@@ -1,6 +1,6 @@
 import "./footerContainer.css"
-import BlockHeaderText from "../../components/pageTitle/blockHeader/blockHeaderText.jsx"
-import BlockSubheaderText from "../../components/pageTitle/subheader/blockSubheaderText.jsx"
+import BlockHeaderText from "../../components/pageText/blockHeader/blockHeaderText.jsx"
+import BlockSubheaderText from "../../components/pageText/subheader/blockSubheaderText.jsx"
 import logo from '../../assets/img/logo.png';
 import fbLogo from '../../assets/img/fb-logo.svg'
 import instagramLogo from '../../assets/img/insta-logo.svg'

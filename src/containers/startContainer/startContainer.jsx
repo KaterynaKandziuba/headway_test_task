@@ -1,6 +1,6 @@
 import "./startContainer.css"
-import BlockHeaderText from "../../components/pageTitle/blockHeader/blockHeaderText.jsx"
-import BlockSubheaderText from "../../components/pageTitle/subheader/blockSubheaderText.jsx"
+import BlockHeaderText from "../../components/pageText/blockHeader/blockHeaderText.jsx"
+import BlockSubheaderText from "../../components/pageText/subheader/blockSubheaderText.jsx"
 import discoverApp from "../../assets/img/discover-app.png"
 import Lottie from 'react-lottie-player'
 import growthAnimation from "../../assets/lottie/growth.json"

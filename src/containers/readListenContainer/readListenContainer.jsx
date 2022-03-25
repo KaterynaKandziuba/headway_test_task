@@ -1,6 +1,6 @@
 import "./readListenContainer.css"
-import BlockHeaderText from "../../components/pageTitle/blockHeader/blockHeaderText.jsx"
-import BlockSubheaderText from "../../components/pageTitle/subheader/blockSubheaderText.jsx"
+import BlockHeaderText from "../../components/pageText/blockHeader/blockHeaderText.jsx"
+import BlockSubheaderText from "../../components/pageText/subheader/blockSubheaderText.jsx"
 
 const ReadListenContainer = () => {
     const header = 'Read or Listen'

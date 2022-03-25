@@ -1,10 +1,10 @@
 import "./getSmarterContainer.css"
-import BlockHeaderText from "../../components/pageTitle/blockHeader/blockHeaderText.jsx"
-import BlockSubheaderText from "../../components/pageTitle/subheader/blockSubheaderText.jsx"
+import BlockHeaderText from "../../components/pageText/blockHeader/blockHeaderText.jsx"
+import BlockSubheaderText from "../../components/pageText/subheader/blockSubheaderText.jsx"
 import logoNewspapers from "../../assets/img/logo-newspapers.svg"
 import insightsPic from "../../assets/img/insights.svg"
 import weekdaysPic from "../../assets/img/weekdays.svg"
-import BoldSubheaderText from "../../components/pageTitle/boldSubheader/boldSubheader"
+import BoldSubheaderText from "../../components/pageText/boldSubheader/boldSubheader"
 
 const GetSmarterContainer = () => {
     const header = 'Get smarter with the least effort'

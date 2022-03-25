@@ -1,11 +1,11 @@
 import "./summaryContainer.css"
-import BlockHeaderText from "../../components/pageTitle/blockHeader/blockHeaderText.jsx"
-import BlockSubheaderText from "../../components/pageTitle/subheader/blockSubheaderText.jsx"
+import BlockHeaderText from "../../components/pageText/blockHeader/blockHeaderText.jsx"
+import BlockSubheaderText from "../../components/pageText/subheader/blockSubheaderText.jsx"
 import bookPic from "../../assets/img/book.svg"
 import phonePic from "../../assets/img/phone.svg"
 import arrow1 from "../../assets/img/arrow1.png"
 import arrow2 from "../../assets/img/arrow2.png"
-import AdditionalText from "../../components/pageTitle/additionalText/additionalText.jsx"
+import AdditionalText from "../../components/pageText/additionalText/additionalText.jsx"
 
 const SummaryContainer = () => {
     const header = 'Summary is the new black'
