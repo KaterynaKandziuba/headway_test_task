@@ -1,6 +1,8 @@
 import "./readListenContainer.css"
 import BlockHeaderText from "../../components/pageText/blockHeader/blockHeaderText.jsx"
 import BlockSubheaderText from "../../components/pageText/subheader/blockSubheaderText.jsx"
+import ReadListenButton from "../../components/readListenButton/readListenButton.jsx"
+
 
 const ReadListenContainer = () => {
     const header = 'Read or Listen'
@@ -11,6 +13,7 @@ const ReadListenContainer = () => {
             <section className="wrapper page-5">
             <BlockHeaderText text={header}/>
             <BlockSubheaderText text={subheader} />
+            <ReadListenButton />
             </section>
         </>
     );

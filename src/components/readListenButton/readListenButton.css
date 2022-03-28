@@ -1,0 +1,65 @@
+.switch {
+  display: block;
+  position: relative;
+  width: 112px;
+  height: 56px;
+  margin: 0px 8px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  transition: 0.3s;
+}
+
+/* why should position be absolute */
+.slider:before {
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 48px;
+  left: 4px;
+  top: 4px;
+  bottom: 4px;
+  background-color: #0066ff;
+  background-image: url("../../assets/img/listen-icon.svg");
+  transition: 0.3s;
+}
+
+/* check for image changing */
+input:checked + .slider:before {
+  background-image: url("../../assets/img/read-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateX(115%);
+}
+
+.slider.round {
+  border-radius: 40px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.toggle-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.read-listen-img {
+  position: relative;
+  left: -18px;
+  display: block;
+  margin-top: 21px;
+}

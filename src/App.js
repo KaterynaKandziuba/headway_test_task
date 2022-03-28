@@ -16,9 +16,9 @@ function App() {
     <StartContainer />
     <GetSmarterContainer/>
     <SummaryContainer />
-    <DetermineGoalContainer />
+    {/* <DetermineGoalContainer /> */}
     <ReadListenContainer />
-    <PeopleLoveHeadwayContainer />
+    {/* <PeopleLoveHeadwayContainer /> */}
     <FooterContainer />
     <GetStartedButton />
     </>
