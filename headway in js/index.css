@@ -1,0 +1,319 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  body,
+  div,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  a,
+  abbr,
+  em,
+  img,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  figure,
+  footer,
+  header,
+  nav,
+  section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Inter\ Web/Inter-Regular.woff2") format("woff2"),
+      url("fonts/Inter\ Web/Inter-Regular.woff") format("woff");
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    background: #fff8f4;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+
+    width: 359px;
+    margin: auto;
+  }
+
+  nav {
+    margin-left: auto;
+  }
+
+  nav div {
+    float: left;
+  }
+
+  header .logo {
+    width: 122px;
+    height: 24.28px;
+  }
+
+  .account-btn,
+  .menu-btn {
+    width: 48px;
+    height: 48px;
+
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    margin: 8px;
+  }
+
+  .account-btn img,
+  .menu-btn img {
+    display: block;
+  }
+
+  /* как центрировать картинку по вертикали? - flex, top: 50% + px */
+  .account-btn img {
+    margin: 15.67px auto;
+  }
+
+  .menu-btn img {
+    margin: 18.17px auto;
+  }
+
+  /* adds relative position! */
+  section {
+    position: relative;
+    width: 359px;
+    height: 740px;
+    /* check calc() function */
+    left: 8px;
+    border-radius: 12px;
+    padding: 24px 16px 0px;
+    margin: 8px calc(50% - 359px / 2);
+
+    background: #ffffff;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    top: 0px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 130%;
+
+    text-align: center;
+  }
+
+  .sub-header-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    margin: 8px 0px 18px;
+  }
+
+  /* .additional-text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 134%;
+    text-decoration: none;
+
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 8px;
+  }
+
+  .additional-text::after {
+    content: " →";
+  } */
+
+  .illustration-box {
+    margin: auto;
+  }
+
+  .illustration-box lottie-player {
+    margin: auto;
+  }
+
+  .second-page {
+    background: rgba(122, 0, 218, 0.1);
+    overflow: hidden;
+  }
+
+  .scroll-wrapper {
+    position: relative;
+    width: inherit;
+    height: 116px;
+    overflow: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    /* display: none - for the scrollbar */
+    margin-top: 24px;
+  }
+
+  .categories {
+    position: absolute;
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+  .category {
+    padding: 8px;
+    margin: 8px 4px;
+    width: fit-content;
+    height: 40px;
+
+    background: #ffffff;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .books {
+    display: grid;
+    grid-template-columns: repeat(12, 40px);
+    grid-template-rows: auto;
+    margin: 24px;
+
+    overflow: scroll;
+    white-space: nowrap;
+  }
+
+  .books>img {
+    justify-self: stretch;
+
+    display: block;
+    margin: 4px;
+  }
+
+  .categories>.selected {
+    background-color: #E6E9F5;
+  }
+
+  .faded {
+    opacity: 20%;
+  }
+
+  [alt="book-1"] {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  [alt="book-2"] {
+    grid-column-start: 4;
+    grid-column-end: 6;
+  }
+
+  [alt="book-3"] {
+    grid-column-start: 6;
+    grid-column-end: 8;
+  }
+
+  [alt="book-4"] {
+    grid-column-start: 8;
+    grid-column-end: 10;
+  }
+
+  [alt="book-5"] {
+    grid-column-start: 10;
+    grid-column-end: 12;
+  }
+
+  [alt="book-6"] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  [alt="book-7"] {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  [alt="book-8"] {
+    grid-column-start: 5;
+    grid-column-end: 7;
+  }
+
+  [alt="book-9"] {
+    grid-column-start: 7;
+    grid-column-end: 9;
+  }
+
+  [alt="book-10"] {
+    grid-column-start: 9;
+    grid-column-end: 11;
+  }
+
+  [alt="book-11"] {
+    grid-column-start: 11;
+    grid-column-end: 13;
+  }
+
+  [alt="book-12"] {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  [alt="book-13"] {
+    grid-column-start: 4;
+    grid-column-end: 6;
+  }
+
+  [alt="book-14"] {
+    grid-column-start: 6;
+    grid-column-end: 8;
+  }
+
+  [alt="book-15"] {
+    grid-column-start: 8;
+    grid-column-end: 10;
+  }
+
+  [alt="book-16"] {
+    grid-column-start: 10;
+    grid-column-end: 12;
+  }
+}
